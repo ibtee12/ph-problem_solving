@@ -2,9 +2,9 @@
 using namespace std;
 
 void swapValues(int &a, int &b) {
-    a = a + b;  //15
-    b = a - b;  //15-10=5
-    a = a - b;  //15-5=10
+    a = a + b;
+    b = a - b;
+    a = a - b;
 }
 
 int main() {
